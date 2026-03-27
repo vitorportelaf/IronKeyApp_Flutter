@@ -116,7 +116,7 @@ class _IronKeyScreenState extends State<IronKeyScreen> {
             SizedBox(
               width: double.infinity,
               child: FilledButton(
-                onPressed: () {},
+                onPressed: generatePassword,
                 child: Text(
                   "Gerar senha",
                   style: TextStyle(fontWeight: FontWeight.bold),
